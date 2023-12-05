@@ -1,5 +1,8 @@
-from http_get import get_dict as relative
+import http_get as first
+from http_get import get_dict as second
+import re
 
 
-print(relative())
+print(first.get_dict())
+print(second())
 
